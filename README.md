@@ -6,5 +6,7 @@
 * In case of any doubts occur, you can refer to the official website of Vuforia, where there is a detailed instruction on how to set up your scene in Unity for HoloLens ([https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html](https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html))
 ## Setup your scene
 * Create an empty Unity Project
-* Click `Edit` - `Project` - `XR Plugin Management`
-* * Install Windows Mixed Reality and enable Holographic Remoting
+* Click **Edit** - **Project** - **XR Plugin Management**
+  - Install **Windows Mixed Reality** and enable **Holographic Remoting** in the **Project settings**
+* Click **File** - **Build Settings** - **Player Settings** - **Player**
+* Navigate to **Publishing Settings** and under **Capabilities** select **Internet Client**, **WebCam** and **Microphone**. Under `Supported Device Families` select **Holographic**
