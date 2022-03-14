@@ -10,3 +10,12 @@
   - Install **Windows Mixed Reality** and enable **Holographic Remoting** in the **Project settings**
 * Click **File** - **Build Settings** - **Player Settings** - **Player**
 * Navigate to **Publishing Settings** and under **Capabilities** select **Internet Client**, **WebCam** and **Microphone**. Under `Supported Device Families` select **Holographic**
+* Navigate to `Resolution and Presentation` disable **Run in Background** and in `Default Orientation` select **Landscape Left**
+* Close `Project Settings`
+* Add the MRTK to each scene using `Mixed Reality Toolkit` - `Add to Scene and Configure`, from the top menu
+* In the **MixedRealityToolkit GameObject**, in each scene, set the configuration profile to the **DefaultXRSDKConfigurationProfile** (Or **Default HoloLens2**, depending on with which device are you going to work)
+* Select the **Main Camera** found as a child of the MixedRealityPlaySpace GameObject and add the **VuforiaBehaviour** component to it from the `Inspector` tab in the right
+* 
+## Import URDF model of Franka Emika manipulator
+* Place your URDF model into the `Assets` folder of your Unity project. It will appear automatically in the `Project window` in Unity
+* Right Mouse click on your URDF model and in the appeared list click `Import Robot from Selected URDF` file. Your model will appear in Hierarchy
