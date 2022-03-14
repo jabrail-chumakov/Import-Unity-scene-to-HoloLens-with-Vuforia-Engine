@@ -7,3 +7,4 @@
 ## Setup your scene
 * Create an empty Unity Project
 * Click `Edit` - `Project` - `XR Plugin Management`
+* * Install Windows Mixed Reality and enable Holographic Remoting
