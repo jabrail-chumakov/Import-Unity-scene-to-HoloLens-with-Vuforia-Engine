@@ -25,4 +25,11 @@
 * Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour`, Select `Type` - `From Database`, `Database` - `“Your database”` and `Image Target` - `“Your Image Target”` (Note that before that, you need to import your mark on the Vuforia website. Create an account there and import your mark. It will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package. The size of imported mark should be exactly the same as of a real one since it affects on tracking feature!)
 ## Build scene
 * Click `File` - `Build settings`
-* 
+* In the `Build Settings` window change your platform to **Universal Windows Platform**
+* Click **Add Open Scenes** (Note: there should be only one scene that you’re building)
+* Set `Target Device` to HoloLens and Architecture to ARM64 (ARM64 is used for HoloLens 2, while x86 for HoloLens 1)
+* `Build Type` - `D3D project`, `Build and Run` - `Local Machine`, `Build Configuration` - `Release`. Left other options unchanged. 
+* Verify that everythings is correct. It should look like this: **place photo**
+* Click **Build**
+* Now, name a folder in the appeared window and save it (i.e. name folder as “App”)
+## Build app
