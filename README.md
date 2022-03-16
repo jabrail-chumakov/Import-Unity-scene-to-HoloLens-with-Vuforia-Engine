@@ -14,7 +14,7 @@
   - Navigate to `Resolution and Presentation` disable **Run in Background** and in `Default Orientation` select **Landscape Left**
 * Now you can close `Project Settings`
 * Add the MRTK to each scene by using `Mixed Reality Toolkit` - `Add to Scene and Configure`, from the top menu
-* In the **MixedRealityToolkit GameObject**, in each scene, set the configuration profile to the **DefaultXRSDKConfigurationProfile** (Or **Default HoloLens2**, depending on with which device are you going to work)
+* In the **MixedRealityToolkit GameObject**, in each scene, set the configuration profile to the **DefaultHoloLens2ConfigurationProfile** (Or **DefaultHoloLens1ConfigurationProfile**, depending on with which device are you going to work)
 * Select the **Main Camera** found as a child of the MixedRealityPlaySpace GameObject and add the **VuforiaBehaviour** component to it from the `Inspector` tab in the right
 * **IMPORTANT**: don't forget to enter your licence code in vuforia component
 ## Import URDF model of Franka Emika manipulator
