@@ -8,7 +8,7 @@
 ## Setup your scene
 * Create an empty Unity Project
 * Click `Edit` - `Project` - `XR Plugin Management`
-  - Install **Windows Mixed Reality** and enable **Holographic Remoting** in the `Project settings`
+  - Check **Windows Mixed Reality** (Unity will install it) and enable **Holographic Remoting** in the `Project settings`
 * Click `File` - `Build Settings` - `Player Settings` - `Player`
 * Navigate to `Publishing Settings` and under `Capabilities` select **Internet Client**, **WebCam** and **Microphone**. Under `Supported Device Families` select **Holographic**
 * Navigate to `Resolution and Presentation` disable **Run in Background** and in `Default Orientation` select **Landscape Left**
