@@ -15,7 +15,14 @@
 * Add the MRTK to each scene using `Mixed Reality Toolkit` - `Add to Scene and Configure`, from the top menu
 * In the **MixedRealityToolkit GameObject**, in each scene, set the configuration profile to the **DefaultXRSDKConfigurationProfile** (Or **Default HoloLens2**, depending on with which device are you going to work)
 * Select the **Main Camera** found as a child of the MixedRealityPlaySpace GameObject and add the **VuforiaBehaviour** component to it from the `Inspector` tab in the right
-* 
+* **IMPORTANT**: don't forget to enter your licence code in vuforia component
 ## Import URDF model of Franka Emika manipulator
 * Place your URDF model into the `Assets` folder of your Unity project. It will appear automatically in the `Project window` in Unity
-* Right Mouse click on your URDF model and in the appeared list click `Import Robot from Selected URDF` file. Your model will appear in Hierarchy
+* Right Mouse click on your URDF model and in the appeared list click `Import Robot from Selected URDF` file. Your model will appear in `Hierarchy` window.
+## Vuforia Engine
+* In Hierarchy window Right Mouse click in empty space and in the appeared list click **Vuforia Engine** - **Image Target**. This will create Image Target game object
+* Place your **panda** under **ImageTarget** object as a child, so it becomes subcomponent of it.
+* Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour`, Select `Type` - `From Database`, `Database` - `“Your database”` and `Image Target` - `“Your Image Target”` (Note that before that, you need to import your mark on the Vuforia website. Create an account there and import your mark. It will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package. The size of imported mark should be exactly the same as of a real one since it affects on tracking feature!)
+## Build scene
+* Click `File` - `Build settings`
+* 
