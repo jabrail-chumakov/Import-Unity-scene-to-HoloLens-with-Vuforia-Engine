@@ -9,8 +9,8 @@
 * Run **Unity Hub** and click on **New project** button
 * In the appeared window, find **AR** template and click on it. Name your project (e.g., **Franka-HL**), specify the installation path and click on **Create project** button
 * In the newly appeared window, you will see **SampleScene** in the `Hierarchy` tab. For our project, we need to create our own scene, but let's change some settings before
-* Click `Edit` - `Project` - `XR Plugin Management`
-  - Check **Windows Mixed Reality** (Unity will install it) and enable **Holographic Remoting** in the `Project settings`
+* Click `Edit` - `Project Settings` - `XR Plug-in Management`
+  - Click on **Universal Windows Platform settings** and check **Windows Mixed Reality** (Unity will install it) and enable **Holographic Remoting** from the dropdown menu of `XR Plug-in Management` in the left
 * Click `File` - `Build Settings` - `Player Settings` - `Player`
   - Navigate to `Publishing Settings` and under `Capabilities` select **Internet Client**, **WebCam** and **Microphone**. Under `Supported Device Families` select **Holographic**
   - Navigate to `Resolution and Presentation` disable **Run in Background** and in `Default Orientation` select **Landscape Left**
