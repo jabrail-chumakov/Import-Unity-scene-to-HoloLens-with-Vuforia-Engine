@@ -8,7 +8,7 @@
 ## Setup your scene
 * Run **Unity Hub** and click on **New project** button
 * In the appeared window, find **AR** template and click on it. Name your project (e.g., **Franka-HL**), specify the installation path and click on **Create project** button
-* Create an empty Unity Project
+* In the newly appeared window, you will see **SampleScene** in the `Hierarchy` tab. For our project, we need to create our own scene, but let's change some settings before
 * Click `Edit` - `Project` - `XR Plugin Management`
   - Check **Windows Mixed Reality** (Unity will install it) and enable **Holographic Remoting** in the `Project settings`
 * Click `File` - `Build Settings` - `Player Settings` - `Player`
