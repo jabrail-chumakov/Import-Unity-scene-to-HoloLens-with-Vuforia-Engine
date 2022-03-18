@@ -13,7 +13,7 @@
 * Install [Vuforia Engine](https://developer.vuforia.com/downloads/sdk) from Official Website (Note: you should manually install this package in case it freezes during installation)
   - You will get file with **.unitypackage** extension. Just double-click on it
   - In Unity `Import Unity Package` window will pop-up
-  - Click `All` and `Import`
+  - Click **All** and **Import**
   - Note that it may take some time for importing package into Unity, so be patient **:)**
   - During importing it may ask to update your project. Click **Update** for that
   - Now Vuforia is ready for use
@@ -31,10 +31,14 @@
   - Navigate to `Publishing Settings` and under `Capabilities` select **Internet Client**, **WebCam**, **Microphone** and **Spatial Perception**. Under `Supported Device Families` select **Holographic**
   - Navigate to `Resolution and Presentation` disable **Run in Background** and in `Default Orientation` select **Landscape Left**
   - Now you can close `Project Settings`
-* Add the MRTK to each scene by using `Mixed Reality Toolkit` - `Add to Scene and Configure`, from the top menu
-* In the **MixedRealityToolkit GameObject**, in each scene, set the configuration profile to the **DefaultHoloLens2ConfigurationProfile** (Or **DefaultHoloLens1ConfigurationProfile**, depending on with which device are you going to work)
-* Select the **Main Camera** found as a child of the MixedRealityPlaySpace GameObject and add the **VuforiaBehaviour** component to it from the `Inspector` tab in the right
-* **IMPORTANT**: don't forget to enter your licence code in vuforia component
+* In **Project** tab right click on **Scenes** folder and then **Create** - **Scene**. Name your scene as **Holemika** and open it.
+* Now you have an empty scene with only **Main Camera** and **Directional Light** objects
+* Click on **Holemika** in `Hierarchy` tab and add the MRTK to each scene by using `Mixed Reality` - `Toolkit` - `Add to Scene and Configure...`, from the top menu
+* Now you will have only 4 parent objects under your **Holemika** scene
+* Click on the **MixedRealityToolkit** object and set the configuration profile to the **DefaultHoloLens2ConfigurationProfile** (Or **DefaultHoloLens1ConfigurationProfile**, depending on with which device are you going to work) in **MixedReality Toolkit** component
+* Expand **MixedRealityPlayspace** object and in dropdown menu select the **Main Camera**. Click **Add Component** in the `Inspector` tab. Type **VuforiaBehaviour** and select this component. 
+  - Click **Open Vuforia Engine configuration** 
+  - **IMPORTANT**: In the `Inspector` tab, next to **App Licence Key** enter your licence key. It's free and will be given to you after your registration
 ## Import URDF model of Franka Emika manipulator
 * Place your URDF model into the `Assets` folder of your Unity project. It will appear automatically in the `Project window` in Unity
 * Right Mouse click on your URDF model and in the appeared list click `Import Robot from Selected URDF` file. Your model will appear in `Hierarchy` window.
