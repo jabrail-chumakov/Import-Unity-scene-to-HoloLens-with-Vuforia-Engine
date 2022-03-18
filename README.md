@@ -40,7 +40,7 @@
   - Click **Open Vuforia Engine configuration** 
   - **IMPORTANT**: In the `Inspector` tab, next to **App Licence Key** enter your licence key. It's free and will be given to you after your registration
 ## Import URDF model of Franka Emika manipulator
-* Go to [URDF Imported](https://github.com/Unity-Technologies/URDF-Importer) webpage and copy git URL for the lasted version of URDF Importer
+* Go to [URDF Importer](https://github.com/Unity-Technologies/URDF-Importer) webpage and copy git URL for the lasted version of URDF Importer
 * In Unity navigate to `Window` - `Package Manager`
   - Click on **+** and in dropdown menu select **Add package from git URL**
   - Paste git URL and click **Add**
