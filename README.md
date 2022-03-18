@@ -2,8 +2,13 @@
 ## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019, MRTK and URDF Importer
 * Download and install [Unity 2020](https://unity3d.com/get-unity/download) or newer. During installation check `IL2CPP Scripting Backend`
 * Download and install [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (16.8 or higher)
+* Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. It's better to use [Mixed Reality Feature Tool](https://www.microsoft.com/en-us/download/details.aspx?id=102778) for installation because it's easier. 
+  - Just extract folder from zip file and run **MixedRealityFeatureTool.exe**. 
+  - Click **Start** and enter the location of your Unity project. After that click **Discover Features**
+  - From `Discover Features`, click **Select All** from **Mixed Reality Toolkit** and click **Get Features**
+  - Click **Import** - **Approve** - **Exit**
+  - Now MRTK is ready for use (Note: it may take some time for importing package into Unity, so be patient **:)**)
 * Install [Vuforia Engine](https://developer.vuforia.com/downloads/sdk) from Official Website (Note: you should manually install this package in case it freezes during installation)
-* Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. It's better to use [Mixed Reality Feature Tool](https://www.microsoft.com/en-us/download/details.aspx?id=102778) for installation because it's easier. During installation locate your Unity project folder and check `Microsoft.MixedReality.Toolkit.Unity.Foundation`.
 ## Setup your scene
 * Run **Unity Hub** and click on **New project** button
 * In the appeared window, find **AR** template and click on it. Name your project (e.g., **Franka-HL**), specify the installation path and click on **Create project** button
