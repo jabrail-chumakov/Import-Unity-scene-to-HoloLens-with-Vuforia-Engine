@@ -6,6 +6,8 @@
 * Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. During installation locate your Unity project folder and check `Microsoft.MixedReality.Toolkit.Unity.Foundation`.
 * In case of any doubts occur, you can refer to the official website of Vuforia, where there is a detailed instruction on how to set up your scene in Unity for HoloLens ([https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html](https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html))
 ## Setup your scene
+* Run **Unity Hub** and click on **New project** button
+* In the appeared window, find **AR** template and click on it. Name your project (e.g., **Franka-HL**), specify the installation path and click on **Create project** button
 * Create an empty Unity Project
 * Click `Edit` - `Project` - `XR Plugin Management`
   - Check **Windows Mixed Reality** (Unity will install it) and enable **Holographic Remoting** in the `Project settings`
