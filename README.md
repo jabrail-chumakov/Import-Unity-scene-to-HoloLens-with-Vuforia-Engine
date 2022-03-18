@@ -1,7 +1,7 @@
 # Install software for Unity and AR
 ## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019, MRTK and URDF Importer
 * Download and install [Unity 2020](https://unity3d.com/get-unity/download) or newer. During installation check `IL2CPP Scripting Backend`
-* Download and install Microsoft Visual Studio 2019
+* Download and install [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (16.8 or higher)
 * Install Vuforia Engine from Official Website (Note: you should manually install this package because in other cases it will freeze during installation)
 * Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. During installation locate your Unity project folder and check `Microsoft.MixedReality.Toolkit.Unity.Foundation`.
 * In case of any doubts occur, you can refer to the official website of Vuforia, where there is a detailed instruction on how to set up your scene in Unity for HoloLens ([https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html](https://library.vuforia.com/articles/Solution/Working-with-the-HoloLens-sample-in-Unity.html))
