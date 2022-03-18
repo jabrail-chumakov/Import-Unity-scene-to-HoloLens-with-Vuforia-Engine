@@ -1,5 +1,5 @@
 # Install software for Unity and AR
-## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019, MRTK and URDF Importer
+## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019 and MRTK
 * Download and install [Unity 2020](https://unity3d.com/get-unity/download) or newer. During installation check `IL2CPP Scripting Backend`
 * Download and install [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (16.8 or higher)
 * Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. It's better to use [Mixed Reality Feature Tool](https://www.microsoft.com/en-us/download/details.aspx?id=102778) for installation because it's easier. 
@@ -40,8 +40,17 @@
   - Click **Open Vuforia Engine configuration** 
   - **IMPORTANT**: In the `Inspector` tab, next to **App Licence Key** enter your licence key. It's free and will be given to you after your registration
 ## Import URDF model of Franka Emika manipulator
-* Place your URDF model into the `Assets` folder of your Unity project. It will appear automatically in the `Project window` in Unity
-* Right Mouse click on your URDF model and in the appeared list click `Import Robot from Selected URDF` file. Your model will appear in `Hierarchy` window.
+* Go to [URDF Imported](https://github.com/Unity-Technologies/URDF-Importer) webpage and copy git URL for the lasted version of URDF Importer
+* In Unity navigate to `Window` - `Package Manager`
+  - Click on **+** and in dropdown menu select **Add package from git URL**
+  - Paste git URL and click **Add**
+* In this repository you may notice **URDF_Franka** folder. It contains URDF model for Franka Emika manipulator
+* Place this folder under the `Assets` in `Project` tab of your Unity project and open it
+* Inside you will find **panda_arm_hand.urdf** file
+* Right click on it and in the appeared list click `Import Robot from Selected URDF file`
+  - In `URDF Importer Settings` for `Select Axis Type` choose **Y Axis**, while for `Mesh Decomposer` choose **VHACD**. Let **Overwrite Existing Prefabs** remain unchecked
+  - Click **Import URDF**
+  - Your model will appear in `Hierarchy` window as a **panda** object
 ## Vuforia Engine
 * In Hierarchy window Right Mouse click in empty space and in the appeared list click **Vuforia Engine** - **Image Target**. This will create Image Target game object
 * Place your **panda** under **ImageTarget** object as a child, so it becomes subcomponent of it.
