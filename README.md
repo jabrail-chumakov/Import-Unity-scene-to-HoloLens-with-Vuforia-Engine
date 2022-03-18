@@ -7,7 +7,7 @@
   - Click **Start** and enter the location of your Unity project. After that click **Discover Features**
   - From `Discover Features`, click **Select All** from **Mixed Reality Toolkit** and click **Get Features**
   - Click **Import** - **Approve** - **Exit**
-  - Now MRTK is ready for use (Note: it may take some time for importing package into Unity, so be patient **:)**)
+  - Now MRTK is ready for use. Note that it may take some time for importing package into Unity, so be patient **:)**
 * Install [Vuforia Engine](https://developer.vuforia.com/downloads/sdk) from Official Website (Note: you should manually install this package in case it freezes during installation)
 ## Setup your scene
 * Run **Unity Hub** and click on **New project** button
