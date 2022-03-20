@@ -54,7 +54,10 @@
 ## Vuforia Engine
 * In Hierarchy window Right Mouse click in empty space and in the appeared list click **Vuforia Engine** - **Image Target**. This will create **ImageTarget** game object in your scene
 * Place your **panda** object under **ImageTarget**, so it becomes subcomponent of it
-* Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour`, Select `Type` - `From Database`, `Database` - `“Your database”` and `Image Target` - `“Your Image Target”` (Note that before that, you need to import your mark on the Vuforia website. Create an account there and import your mark. It will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package. The size of imported mark should be exactly the same as of a real one since it affects on tracking feature!)
+* Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour (Script)`
+* Next to `Type` choose **From Database**. New window will appear asking to Import a default database. Click **Import**
+* Now it's time to upload your own database. Go to Vuforia Engine developer portal and add your own database. Service will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package (or double click on it). The size of imported mark should be exactly the same as of a real one since it affects on tracking features!
+* 
 ## Build scene
 * Click `File` - `Build settings`
 * Click **Add Open Scenes** (Note: there should be only one scene that you’re building)
