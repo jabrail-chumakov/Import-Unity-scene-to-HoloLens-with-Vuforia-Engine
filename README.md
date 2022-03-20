@@ -57,7 +57,9 @@
 * Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour (Script)`
 * Next to `Type` choose **From Database**. New window will appear asking to Import a default database. Click **Import**
 * Now it's time to upload your own database. Go to Vuforia Engine developer portal and add your own database. Service will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package (or double click on it). The size of imported mark should be exactly the same as of a real one since it affects on tracking features!
-* 
+* Click **All** and **Import** in Unity. It will import your database inside Unity
+* After that, nagiate to your **ImageTarget** object and under **Image Target Behaviour** component next to `Database` choose your imported mark
+* You can now adjust position of your mark relative to your panda robot
 ## Build scene
 * Click `File` - `Build settings`
 * Click **Add Open Scenes** (Note: there should be only one scene that you’re building)
