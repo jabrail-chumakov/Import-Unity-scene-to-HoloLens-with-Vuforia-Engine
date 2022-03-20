@@ -52,8 +52,8 @@
   - Click **Import URDF**
   - Your model will appear in `Hierarchy` window as a **panda** object
 ## Vuforia Engine
-* In Hierarchy window Right Mouse click in empty space and in the appeared list click **Vuforia Engine** - **Image Target**. This will create Image Target game object
-* Place your **panda** under **ImageTarget** object as a child, so it becomes subcomponent of it.
+* In Hierarchy window Right Mouse click in empty space and in the appeared list click **Vuforia Engine** - **Image Target**. This will create **ImageTarget** game object in your scene
+* Place your **panda** object under **ImageTarget**, so it becomes subcomponent of it
 * Click on **ImageTarget** and in the `Inspector` window navigate to `Image Target Behaviour`, Select `Type` - `From Database`, `Database` - `“Your database”` and `Image Target` - `“Your Image Target”` (Note that before that, you need to import your mark on the Vuforia website. Create an account there and import your mark. It will evaluate and rate your mark depending on its features. After that, download createad database and import it to Unity as a Custom Package. The size of imported mark should be exactly the same as of a real one since it affects on tracking feature!)
 ## Build scene
 * Click `File` - `Build settings`
