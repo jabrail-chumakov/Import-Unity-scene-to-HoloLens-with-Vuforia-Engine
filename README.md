@@ -1,5 +1,5 @@
 # Install software for Unity and Augmented Reality (AR)
-## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019 and MRTK
+## Install Unity 2020+, Vuforia Engine package, Visual Studio 2019 and MRTK
 * Download and install [Unity 2020](https://unity3d.com/get-unity/download) or newer. During installation check `IL2CPP Scripting Backend`
 * Download and install [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (16.8 or higher)
 * Install Mixed Reality Toolkit (MRTK). It’s required for proper work of the camera. It's better to use [Mixed Reality Feature Tool](https://www.microsoft.com/en-us/download/details.aspx?id=102778) for installation because it's easier. 
