@@ -63,7 +63,7 @@
 ## Build scene
 * Click `File` - `Build settings`
 * Click **Add Open Scenes** (Note: there should be only one scene that you’re building)
-* Verify that everythings is correct. It should look like this: **place photo**
+* Verify that everythings is correct. It should look like this: **place photo below**
 * Click **Build**
 * Now, name a folder in the appeared window and save it (e.g., name folder as “App”)
 ## Build app
