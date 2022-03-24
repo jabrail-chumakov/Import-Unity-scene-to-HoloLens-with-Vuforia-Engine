@@ -69,5 +69,5 @@
 ## Build app
 * Open the **.sln** file in a saved folder and wait until Visual Studio will be opened
 * On the top of VS, select **Release** and **ARM64** (or x86) and then **Start without Debugging** (Note: at that moment you should connect HoloLens (HL) device to your computer via USB cable. HL should be turned-on at that moment)
-* Now wait until it will be fully built into the HL device, it will take some time
+* Now wait until it will be fully built into the HL device, it will take some time. Inside HoloLens window may appear asking to give access for app, click **OK** for it
 * Vuforia Engine logo should appear on a display of your HL and after that, you will observe your scene
