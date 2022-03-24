@@ -1,4 +1,4 @@
-# Install software for Unity and AR
+# Install software for Unity and Augmented Reality
 ## Install Unity 2020+, VuforiaEngine package, Visual Studio 2019 and MRTK
 * Download and install [Unity 2020](https://unity3d.com/get-unity/download) or newer. During installation check `IL2CPP Scripting Backend`
 * Download and install [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) (16.8 or higher)
